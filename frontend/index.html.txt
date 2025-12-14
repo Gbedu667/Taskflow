@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TaskFlow</title>
+</head>
+<body>
+    <h2>TaskFlow</h2>
+
+    <input id="title" placeholder="Task title">
+    <input id="desc" placeholder="Task description">
+    <button onclick="addTask()">Add Task</button>
+
+    <ul id="tasks"></ul>
+
+    <script src="app.js"></script>
+</body>
+</html>
